@@ -1,0 +1,51 @@
+{
+  "skills": [
+    { "id": 1, "name": "Coding", "category": "Tech" },
+    { "id": 2, "name": "JavaScript", "category": "Tech" },
+    { "id": 3, "name": "Carpentry", "category": "Trade" },
+    { "id": 4, "name": "Graphic Design", "category": "Creative" },
+    { "id": 5, "name": "Farming", "category": "Agriculture" }
+  ],
+  "jobs": [
+    { 
+      "id": 1, 
+      "title": "Web Developer", 
+      "type": "Part-Time", 
+      "category": "Tech", 
+      "tags": ["Coding", "JavaScript"], 
+      "description": "Build websites and web applications using modern technologies." 
+    },
+    { 
+      "id": 2, 
+      "title": "Mobile App Developer", 
+      "type": "Permanent", 
+      "category": "Tech", 
+      "tags": ["Coding"], 
+      "description": "Develop mobile applications for iOS and Android platforms." 
+    },
+    { 
+      "id": 3, 
+      "title": "Furniture Maker", 
+      "type": "One-Time", 
+      "category": "Trade", 
+      "tags": ["Carpentry"], 
+      "description": "Craft custom tables, chairs, and furniture pieces." 
+    },
+    { 
+      "id": 4, 
+      "title": "Graphic Designer", 
+      "type": "Part-Time", 
+      "category": "Creative", 
+      "tags": ["Graphic Design"], 
+      "description": "Create logos, branding materials, and visual content." 
+    },
+    { 
+      "id": 5, 
+      "title": "Farm Worker", 
+      "type": "One-Time", 
+      "category": "Agriculture", 
+      "tags": ["Farming"], 
+      "description": "Harvest crops and assist with seasonal farm operations." 
+    }
+  ]
+}
