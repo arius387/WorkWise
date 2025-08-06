@@ -567,12 +567,12 @@ class WorkWiseAPITester:
 
 def main():
     """Main test execution"""
-    # Get base URL from environment or use default
-    import os
-    base_url = os.getenv('NEXT_PUBLIC_BASE_URL', 'https://f0a8ef30-1360-476a-84f9-a7e2ca7d58f5.preview.emergentagent.com')
+    # Test locally since external URL has routing issues
+    base_url = 'http://localhost:3000'
     
     print(f"🎯 Testing WorkWise Backend API at: {base_url}")
     print(f"📡 API Endpoint: {base_url}/api")
+    print("ℹ️  Testing locally due to external routing configuration")
     print()
     
     tester = WorkWiseAPITester(base_url)
